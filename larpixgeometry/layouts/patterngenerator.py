@@ -185,6 +185,11 @@ are numbered according to the following grid::
 0   1   2   3   4   5   6
 '''
 
+grid_7x7_assignments_0_64_v2_1_0 = grid_7x7_assignments_0_64_v2_2_1
+'''
+1 chip uses use the same channel layout as a single chip in the 3x3, so we
+can just use that assignment
+'''
 
 def assign_pixels(pixelids, assignments, right_side_up=True, channel_ids=None):
     '''
